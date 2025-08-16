@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={IBM.className}>
-        <div className="min-h-screen bg-gray-100 ">
+        <div className="min-h-screen ">
           <div className="">
             <div className="mx-auto">
               <LanguageProvider>

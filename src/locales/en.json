@@ -12,6 +12,14 @@
   "Home_About_Us": "About us",
   "Home_About_Us_Title": "Inspiring Creativity, Achieving Strategies, and Telling Success Stories",
   "Home_About_Us_Description": "We are a leading Saudi company in digital marketing and creative design, offering integrated solutions to empower brands to achieve growth and excellence in the market. With extensive experience and a team of experts, we blend creativity and technology to build effective strategies that turn your vision into tangible reality. From developing visual identity to managing marketing campaigns, we are your trusted partner at every step towards success.",
-  "Home_About_Us_Button" : "Know More About Us"
+  "Home_About_Us_Button" : "Know More About Us",
+  "Home_Why_Us":"Why Us",
+  "Home_Why_Us_Title": "From First Step to Full Succes",
+  "Home_WhyUS_OurVision": "Our Vision",
+  "Home_WhyUS_OurVision_Description": "A Creative Partnership for Unlimited Success",
+  "Home_WhyUS_OurValue": "Our Values",
+  "Home_WhyUS_OurValue_Description": "We believe in integrity, innovation, and collaboration as the core values that drive our success and the success of our clients.",
+  "Home_WhyUS_OurMessage": "Our Message",
+  "Home_WhyUS_OurMessage_Description": "We are with you from the first idea to the last detail."
 
 }
