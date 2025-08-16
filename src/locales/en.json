@@ -2,6 +2,16 @@
   "home": "Home",
   "about": "About",
   "services": "Services",
+  "projects": "Projects",
   "contact": "Contact",
-  "welcome": "Welcome to our website"
+  "HomeHeaderH5": "Welcome to Gulf Touch",
+  "HomeHeaderH2": "Turning Ideas into Impact",
+  "HomeHeaderH1": "We Start Together, We Win Together",
+  "HomeHeaderP": "Aligned with Saudi Vision 2030",
+  "HomeHeaderButton": "Free consultation",
+  "Home_About_Us": "About us",
+  "Home_About_Us_Title": "Inspiring Creativity, Achieving Strategies, and Telling Success Stories",
+  "Home_About_Us_Description": "We are a leading Saudi company in digital marketing and creative design, offering integrated solutions to empower brands to achieve growth and excellence in the market. With extensive experience and a team of experts, we blend creativity and technology to build effective strategies that turn your vision into tangible reality. From developing visual identity to managing marketing campaigns, we are your trusted partner at every step towards success.",
+  "Home_About_Us_Button" : "Know More About Us"
+
 }
