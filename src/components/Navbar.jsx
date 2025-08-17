@@ -4,9 +4,9 @@ import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import SaudiIcon from "../../public/saudiIcon.png";
-import EnglandIcon from "../../public/EnglandIcon.png";
-import gulfTouchLogo from "../../public/logo Gulf Touch.svg";
+import SaudiIcon from "../assets/images/saudiIcon.png";
+import EnglandIcon from "../assets/images/EnglandIcon.png";
+import gulfTouchLogo from "../assets/images/logo Gulf Touch.svg";
 
 export default function Navbar() {
   const { language, toggleLanguage } = useLanguage();
@@ -34,7 +34,7 @@ export default function Navbar() {
                 <Image
                   alt="Gulf Touch Logo"
                   width={150}
-                  height={50}
+                  
                   src={gulfTouchLogo}
                 />
               </div>
@@ -56,7 +56,6 @@ export default function Navbar() {
                     src={SaudiIcon}
                     alt="Switch to Arabic"
                     width={28}
-                    height={20}
                   />
                 ) : (
                   <Image
@@ -64,7 +63,6 @@ export default function Navbar() {
                     src={EnglandIcon}
                     alt="Switch to English"
                     width={28}
-                    height={20}
                   />
                 )}
               </button>

@@ -2,7 +2,10 @@ import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Navbar from "@/components/Navbar";
 import { IBM_Plex_Sans_Arabic } from "next/font/google";
-import gulfTouchLogo from "../../public/logo Gulf Touch.svg";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
+
 
 const IBM = IBM_Plex_Sans_Arabic({
   subsets: ["arabic", "latin"], // مهم عشان العربي
@@ -39,7 +42,7 @@ export default function RootLayout({ children }) {
             <div className="mx-auto">
               <LanguageProvider>
                 <Navbar />
-                <main className="py-20">{children}</main>
+                <main className="pt-20">{children}</main>
               </LanguageProvider>
             </div>
           </div>
