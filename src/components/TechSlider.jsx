@@ -56,7 +56,7 @@ export default function TechSlider() {
               alt={`${tech.alt}`}
               width={80}
               height={80}
-              className="object-contain"
+              className="object-contain text-center block mx-auto"
               // لو لسه مزبطتش next.config للصور الخارجية:
               // unoptimized
             />

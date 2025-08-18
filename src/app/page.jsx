@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-import { useLanguage } from "@/context/LanguageContext";
 import headerHomeImage from "../assets/images/home header image.svg";
 import Home_About_Section from "../assets/images/Home_About_Section.jpg";
 import Home_About_Vision from "../assets/images/Home_About_Vision.png";
@@ -10,14 +9,15 @@ import Home_WhyUS_OurValue from "../assets/images/Home_WhyUS_OurValue.jpg";
 import Home_WhyUS_OurMessage from "../assets/images/Home_WhyUS_OurMessage.jpg";
 import Home_OurServicesBG from "../assets/images/Home_About_Vision.png";
 import {
-  faCertificate,
+  faAward,
   faChartLine,
-  faCode,
   faGear,
   faLaptopCode,
+  faListCheck,
   faPenToSquare,
   faRibbon,
   faSpa,
+  faStar,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TechSlider from "@/components/TechSlider";
@@ -25,10 +25,10 @@ import DigitalMarketingSlider from "@/components/DigitalMarketingSlider";
 import MediaContentSlider from "@/components/MediaContentProductionSlider";
 import Link from "next/link";
 import OurProjectsSlider from "@/components/OurProjectsSlider";
+import CounterBox from "@/components/CounterBox";
 
 export default function HomePage() {
   const { t } = useTranslation();
-  const { dir } = useLanguage(); // rtl / ltr
 
   return (
     <>
@@ -357,7 +357,7 @@ export default function HomePage() {
 
       {/* Our Projects */}
 
-      <section className="py-12 bg-gray-100">
+      <section className="py-10 bg-gray-100">
         <div className="container mx-auto px-5 text-center md:max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 text-gray-50 items-center text-center md:text-start ">
             <div className="md:border-e-2 md:border-[#333] md:pr-10 ">
@@ -376,12 +376,50 @@ export default function HomePage() {
             </div>
           </div>
 
-          <OurProjectsSlider/>
-
+          <div className="PojectSlider">
+            <OurProjectsSlider />
+          </div>
         </div>
       </section>
 
-      {/* End Of Our Services */}
+      {/* End Of Our Projects */}
+
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-5 text-center md:max-w-7xl">
+          {/* Our Achivements */}
+
+          <div className="bg-white py-12 rounded-3xl shadow-2xl mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto px-5">
+              <div>
+                <CounterBox
+                  icon={faListCheck}
+                  target={30}
+                  label={t("Home_OurAchivement_Services")}
+                  duration={1000}
+                />
+              </div>
+              <div>
+                <CounterBox
+                  icon={faAward}
+                  target={300}
+                  label={t("Home_OurAchivement_Projects")}
+                  duration={500}
+                />
+              </div>
+              <div>
+                <CounterBox
+                  icon={faStar}
+                  target={10}
+                  label={t("Home_OurAchivement_Experience")}
+                  duration={1000}
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* End Of Our Achivements */}
+        </div>
+      </section>
     </>
   );
 }

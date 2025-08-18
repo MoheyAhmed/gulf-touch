@@ -78,7 +78,7 @@ export default function DigitalMarketingSlider() {
               alt={item.alt}
               width={80}
               height={80}
-              className="object-contain"
+              className="object-contain text-center block mx-auto"
               unoptimized
             />
             <p className="mt-3 text-base  font-medium text-gray-200">{item.name}</p>

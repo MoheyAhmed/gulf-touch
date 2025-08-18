@@ -44,7 +44,7 @@ export default function MediaContentSlider() {
         breakpoints={{ 640: { slidesPerView: 2 }, 1024: { slidesPerView: 3 } }}
         loop
         style={{ direction: isRTL ? "rtl" : "ltr" }}
-        className="w-full"
+        className="w-full text-center"
       >
         {media.map((item, index) => (
           <SwiperSlide key={index} className="flex flex-col items-center justify-center">
@@ -53,7 +53,7 @@ export default function MediaContentSlider() {
               alt={item.alt}
               width={80}
               height={80}
-              className="object-contain"
+              className="object-contain text-center block mx-auto"
               unoptimized
             />
             <p className="mt-3 text-base  font-medium text-gray-200">{item.name}</p>

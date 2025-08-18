@@ -38,5 +38,8 @@
   "Home_OurProjects_DigitalMarketing": "Digital Marketing",
   "Home_OurProjects_MediaContentProduction": "Media Content Production",
   "Home_OurProjects_Printing": "Printing Services",
-  "Home_OurProjects_Event": "Events & Exhibitions"
+  "Home_OurProjects_Event": "Events & Exhibitions",
+  "Home_OurAchivement_Services" : "Services Available",
+  "Home_OurAchivement_Projects" : "Projects Completed",
+  "Home_OurAchivement_Experience" : "Years of Experience"
 }
