@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
@@ -22,18 +23,30 @@ import Client10 from "../assets/images/client10.svg";
 
 
 export default function OurClientsSlider() {
+  const { t, i18n } = useTranslation();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;
 
+  const isRTL = (i18n.language || "en").startsWith("ar");
+
   const clients = [
-    Client1, Client2, Client3, Client4, Client5, Client6,
-    Client7, Client8, Client9, Client10
+    { img: Client1},
+    { img: Client2},
+    { img: Client3},
+    { img: Client4},
+    { img: Client5},
+    { img: Client6},
+    { img: Client7},
+    { img: Client8},
+    { img: Client9},
+    { img: Client10}
   ];
 
   return (
-    <section className="w-full py-12">
+    <section className="w-full py-12" dir={isRTL ? "rtl" : "ltr"}>
       <Swiper
+        key={isRTL ? "rtl" : "ltr"} // إعادة render عند تغيير اللغة
         modules={[Autoplay, Pagination]}
         spaceBetween={30}
         slidesPerView={4}
@@ -46,16 +59,21 @@ export default function OurClientsSlider() {
           0: { slidesPerView: 1 },
           640: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
-          1024: { slidesPerView: 5 },
+          1024: { slidesPerView: 4 },
         }}
+        pagination={{ clickable: true }}
+        style={{ direction: isRTL ? "rtl" : "ltr" }}
         className="w-full"
       >
         {clients.map((client, index) => (
-          <SwiperSlide key={index} className="flex justify-center cursor-pointer py-10">
+          <SwiperSlide
+            key={index}
+            className="flex flex-col items-center cursor-pointer py-10"
+          >
             <div className="w-full h-28 relative">
               <Image
-                src={client}
-                alt={`Client ${index + 1}`}
+                src={client.img}
+                alt={"client name"}
                 fill
                 sizes="(max-width: 640px) 100vw, 
                        (max-width: 768px) 50vw, 
@@ -65,6 +83,7 @@ export default function OurClientsSlider() {
                 priority={index < 3} // preload أول 3 صور
               />
             </div>
+            
           </SwiperSlide>
         ))}
       </Swiper>
