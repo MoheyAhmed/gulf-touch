@@ -1,0 +1,73 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import Image from "next/image";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
+// استيراد صور العملاء
+import Client1 from "../assets/images/client1.svg";
+import Client2 from "../assets/images/client2.svg";
+import Client3 from "../assets/images/client3.svg";
+import Client4 from "../assets/images/client4.svg";
+import Client5 from "../assets/images/client5.svg";
+import Client6 from "../assets/images/client6.svg";
+import Client7 from "../assets/images/client7.svg";
+import Client8 from "../assets/images/client8.svg";
+import Client9 from "../assets/images/client9.svg";
+import Client10 from "../assets/images/client10.svg";
+
+
+export default function OurClientsSlider() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
+
+  const clients = [
+    Client1, Client2, Client3, Client4, Client5, Client6,
+    Client7, Client8, Client9, Client10
+  ];
+
+  return (
+    <section className="w-full py-12">
+      <Swiper
+        modules={[Autoplay, Pagination]}
+        spaceBetween={30}
+        slidesPerView={4}
+        loop
+        autoplay={{
+          delay: 1500,
+          disableOnInteraction: false,
+        }}
+        breakpoints={{
+          0: { slidesPerView: 1 },
+          640: { slidesPerView: 2 },
+          768: { slidesPerView: 3 },
+          1024: { slidesPerView: 5 },
+        }}
+        className="w-full"
+      >
+        {clients.map((client, index) => (
+          <SwiperSlide key={index} className="flex justify-center cursor-pointer py-10">
+            <div className="w-full h-28 relative">
+              <Image
+                src={client}
+                alt={`Client ${index + 1}`}
+                fill
+                sizes="(max-width: 640px) 100vw, 
+                       (max-width: 768px) 50vw, 
+                       (max-width: 1024px) 33vw, 
+                       25vw"
+                className="brightness-50 hover:brightness-100 transition-all duration-500 hover:scale-105"
+                priority={index < 3} // preload أول 3 صور
+              />
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </section>
+  );
+}

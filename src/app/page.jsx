@@ -26,6 +26,7 @@ import MediaContentSlider from "@/components/MediaContentProductionSlider";
 import Link from "next/link";
 import OurProjectsSlider from "@/components/OurProjectsSlider";
 import CounterBox from "@/components/CounterBox";
+import OurClientsSlider from "@/components/OurClientsSlider";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -41,6 +42,8 @@ export default function HomePage() {
           loop
           muted
           playsInline
+          preload="metadata"
+          poster="../headerHomeBG.jpg" // صورة بديلة في حالة عدم تشغيل الفيديو
           aria-hidden="true" // علشان الفيديو مش محتاج SEO
         />
 
@@ -384,6 +387,7 @@ export default function HomePage() {
 
       {/* End Of Our Projects */}
 
+      {/* Our Achivements */}
       <section className="py-12 bg-white">
         <div className="container mx-auto px-5 text-center md:max-w-7xl">
           {/* Our Achivements */}
@@ -418,6 +422,21 @@ export default function HomePage() {
           </div>
 
           {/* End Of Our Achivements */}
+        </div>
+      </section>
+      {/* End Of Our Achivements */}
+
+      {/* Our Clients */}
+      <section className="py-12 bg-gray-100">
+        <div className="container mx-auto px-5 text-center md:max-w-7xl">
+          <h4 className="text-3xl font-semibold text-[#be9b3f] mb-4">
+            {t("Home_OurClients")}
+          </h4>
+          <h2 className="text-3xl md:text-3xl font-bold leading-snug mb-6">
+            {t("Home_OurClients_Title")}
+          </h2>
+
+          <OurClientsSlider/>
         </div>
       </section>
     </>

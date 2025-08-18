@@ -4,6 +4,7 @@
   "services": "خدماتنا",
   "projects": "مشاريعنا",
   "contact": "اتصل بنا",
+  "Footer": "جميع الحقوق محفوظة، لشركة Gulf Touch للتسويق الرقمي © 2025.",
   "welcome": "مرحبًا بكم في Gulf Touch",
   "HomeHeaderH5": "اهلا بكم في Gulf Touch",
   "HomeHeaderH2": "تحويل الأفكار إلى تأثير",
@@ -42,7 +43,9 @@
   "Home_OurProjects_Event": "الفعاليات والمعارض",
   "Home_OurAchivement_Services": "الخدمات المتاحة",
   "Home_OurAchivement_Projects": "المشاريع المنجزة",
-  "Home_OurAchivement_Experience": "سنوات من الخبرة"
+  "Home_OurAchivement_Experience": "سنوات من الخبرة",
+  "Home_OurClients": "عملاؤنا",
+  "Home_OurClients_Title": "تعرف على عملائنا المخلصين"
 
 
 }
