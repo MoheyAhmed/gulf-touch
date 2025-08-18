@@ -24,6 +24,7 @@ import TechSlider from "@/components/TechSlider";
 import DigitalMarketingSlider from "@/components/DigitalMarketingSlider";
 import MediaContentSlider from "@/components/MediaContentProductionSlider";
 import Link from "next/link";
+import OurProjectsSlider from "@/components/OurProjectsSlider";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -63,7 +64,7 @@ export default function HomePage() {
                   {t("HomeHeaderH2")}
                 </h2>
 
-                <p className="text-base md:text-lg max-w-xl mx-auto md:mx-0 mb-6">
+                <p className="text-base md:text-lg max-w-xl mx-auto  mb-6">
                   {t("HomeHeaderP")}
                 </p>
                 <a
@@ -114,7 +115,7 @@ export default function HomePage() {
 
                 {/* النصوص */}
                 <div className="order-1 md:order-2">
-                  <h4 className="text-xl md:text-xl font-semibold text-green-700 mb-4">
+                  <h4 className="text-3xl  font-semibold text-[#be9b3f] mb-4">
                     {t("Home_About_Us")}
                   </h4>
 
@@ -148,7 +149,7 @@ export default function HomePage() {
       <section className="bg-white py-12">
         <div className="container mx-auto px-5 md:max-w-7xl">
           <div className="text-center">
-            <h4 className="text-xl md:text-xl font-semibold text-green-700 mb-4">
+            <h4 className="text-3xl font-semibold text-[#be9b3f] mb-4">
               {t("Home_Why_Us")}
             </h4>
 
@@ -250,7 +251,7 @@ export default function HomePage() {
         <div className="container mx-auto px-5 text-center md:max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 text-gray-50 items-center text-center md:text-start ">
             <div className="md:border-e-2 md:border-slate-200 md:pr-10 ">
-              <h4 className="text-3xl font-semibold text-slate-100 mb-4">
+              <h4 className="text-3xl font-semibold text-[#be9b3f] mb-4">
                 {t("Home_OurServices")}
               </h4>
 
@@ -266,10 +267,8 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center lg:grid-cols-3 gap-8 mt-10">
-
             <div>
               <div className="hover:scale-105  p-6 rounded-3xl shadow-2xl cursor-pointer border-4 border-gray-400 transition-all duration-500">
-
                 <div>
                   <FontAwesomeIcon
                     icon={faLaptopCode}
@@ -293,10 +292,8 @@ export default function HomePage() {
               </div>
             </div>
 
-
             <div>
               <div className="hover:scale-105  p-6 rounded-3xl shadow-2xl cursor-pointer border-4 border-gray-400 transition-all duration-500">
-
                 <div>
                   <FontAwesomeIcon
                     icon={faChartLine}
@@ -320,10 +317,8 @@ export default function HomePage() {
               </div>
             </div>
 
-
             <div>
               <div className="hover:scale-105  p-6 rounded-3xl shadow-2xl cursor-pointer border-4 border-gray-400 transition-all duration-500">
-
                 <div>
                   <FontAwesomeIcon
                     icon={faPenToSquare}
@@ -346,16 +341,44 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <Link
+            href={""}
+            className="mt-10 py-2 px-4 text-xl hover:bg-blue-500 hover:border-0 transition duration-500 border rounded-xl text-gray-200"
+          >
+            All Services
+          </Link>
+        </div>
+      </section>
 
+      {/* End Of Our Services */}
 
+      {/* Our Projects */}
+
+      <section className="py-12 bg-gray-100">
+        <div className="container mx-auto px-5 text-center md:max-w-7xl">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10 text-gray-50 items-center text-center md:text-start ">
+            <div className="md:border-e-2 md:border-[#333] md:pr-10 ">
+              <h4 className="text-3xl   font-semibold text-[#be9b3f] mb-4">
+                {t("Home_OurProjects")}
+              </h4>
+
+              <h2 className="text-3xl  text-[#333] md:text-3xl font-bold leading-snug mb-6">
+                {t("Home_OurProjects_Title")}
+              </h2>
+            </div>
+            <div>
+              <p className="text-2xl text-[#333] mb-8">
+                {t("Home_OurProjects_Description")}
+              </p>
+            </div>
           </div>
 
-
+          <OurProjectsSlider/>
 
         </div>
-          <div className="flex justify-center">
-            <Link href={''} className="mt-10 py-2 px-4 text-xl hover:bg-blue-500 hover:border-0 transition duration-500 border rounded-xl text-gray-200">All Services</Link>
-          </div>
       </section>
 
       {/* End Of Our Services */}
