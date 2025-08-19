@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 import headerHomeImage from "../assets/images/home header image.svg";
 import Home_About_Section from "../assets/images/Home_About_Section.jpg";
 import Home_About_Vision from "../assets/images/Home_About_Vision.png";
-
 import Home_OurServicesBG from "../assets/images/Home_About_Vision.png";
 import {
   faChartLine,
@@ -26,11 +25,7 @@ export default function HomePage() {
 
   return (
     <>
-
-
-
-    
-      <header className="relative flex justify-center items-center min-h-screen w-full bg-black/0">
+      <header className="relative flex justify-center  items-center min-h-screen w-full bg-black/0">
         {/* الخلفية */}
         <div className="absolute inset-0 -z-10">
           <video
@@ -95,10 +90,6 @@ export default function HomePage() {
         </div>
       </header>
 
-
-
-
-
       {/* About US Section */}
       <section className="bg-gray-100" aria-labelledby="about-title">
         <div className="max-w-7xl mx-auto py-12 md:pb-30">
@@ -124,6 +115,9 @@ export default function HomePage() {
 
               {/* النصوص */}
               <div className="order-1 md:order-2 text-center">
+                <h4 className="text-3xl  font-semibold text-[#be9b3f] mb-4">
+                  {t("Home_About_Us")}
+                </h4>
                 <h1
                   id="about-title"
                   className="text-3xl md:text-3xl font-bold leading-snug mb-6"
@@ -135,14 +129,14 @@ export default function HomePage() {
                   {t("Home_About_Us_Description")}
                 </p>
 
-                <a
+                <Link
                   href="#contact"
                   className="inline-block bg-[#be9b3f] hover:bg-[#a38434] transition px-6 py-3 rounded-lg font-semibold shadow-md text-white"
                   role="button"
                   aria-label="Contact Gulf Touch team"
                 >
                   {t("Home_About_Us_Button")}
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -150,15 +144,11 @@ export default function HomePage() {
       </section>
       {/* End Of About US Section */}
 
-
-
-
       {/* Why US Section */}
-      <WhyUsSection />
+      <div className="">
+        <WhyUsSection />
+      </div>
       {/* End Of Why US Section */}
-
-
-
 
       {/* Our Services */}
       <section
@@ -274,9 +264,6 @@ export default function HomePage() {
       </section>
       {/* End Of Our Services */}
 
-
-
-
       {/* Our Projects */}
       <section
         id="our-projects"
@@ -310,21 +297,13 @@ export default function HomePage() {
       </section>
       {/* End Of Our Projects */}
 
-
-
-
       {/* Our Achievements */}
       <AchievementSection />
       {/* End Of Our Achievements */}
 
-
-
-
       {/* Our Clients */}
-        <OurClientsSection/>
+      <OurClientsSection />
       {/* End Of Our Clients */}
-
-
 
       {/* Contact US */}
 

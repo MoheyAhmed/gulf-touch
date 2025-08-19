@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
             <div className="mx-auto">
               <LanguageProvider>
                 <Navbar />
-                <main className="pt-20">{children}</main>
+                <main className="">{children}</main>
                 <Footer />
               </LanguageProvider>
             </div>

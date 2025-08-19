@@ -11,7 +11,7 @@ export default function WhyUsSection() {
   const { t } = useTranslation();
   return (
     <>
-      <section className="bg-white py-12">
+      <section className="py-12">
         <div className="container mx-auto px-5 md:max-w-7xl">
           {/* العناوين */}
           <div className="text-center">
