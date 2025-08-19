@@ -4,20 +4,12 @@ import { useTranslation } from "react-i18next";
 import headerHomeImage from "../assets/images/home header image.svg";
 import Home_About_Section from "../assets/images/Home_About_Section.jpg";
 import Home_About_Vision from "../assets/images/Home_About_Vision.png";
-import Home_WhyUS_OurVision from "../assets/images/Home_WhyUS_OurVision.jpg";
-import Home_WhyUS_OurValue from "../assets/images/Home_WhyUS_OurValue.jpg";
-import Home_WhyUS_OurMessage from "../assets/images/Home_WhyUS_OurMessage.jpg";
+
 import Home_OurServicesBG from "../assets/images/Home_About_Vision.png";
 import {
-  faAward,
   faChartLine,
-  faGear,
   faLaptopCode,
-  faListCheck,
   faPenToSquare,
-  faRibbon,
-  faSpa,
-  faStar,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TechSlider from "@/components/TechSlider";
@@ -25,14 +17,19 @@ import DigitalMarketingSlider from "@/components/DigitalMarketingSlider";
 import MediaContentSlider from "@/components/MediaContentProductionSlider";
 import Link from "next/link";
 import OurProjectsSlider from "@/components/OurProjectsSlider";
-import CounterBox from "@/components/CounterBox";
-import OurClientsSlider from "@/components/OurClientsSlider";
+import AchievementSection from "@/components/AchievementSection";
+import WhyUsSection from "@/components/WhyUsSection";
+import OurClientsSection from "@/components/OurClientsSection";
 
 export default function HomePage() {
   const { t } = useTranslation();
 
   return (
     <>
+
+
+
+    
       <header className="relative flex justify-center items-center min-h-screen w-full bg-black/0">
         {/* الخلفية */}
         <div className="absolute inset-0 -z-10">
@@ -47,6 +44,16 @@ export default function HomePage() {
             poster="/headerHomeBG.jpg"
             aria-hidden="true"
           />
+
+          {/* <Image
+            src="/HeaderHomeBG.webp" 
+            alt="Background"
+            fill
+            priority
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-black/60"></div> */}
 
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/40"></div>
@@ -87,6 +94,11 @@ export default function HomePage() {
           </div>
         </div>
       </header>
+
+
+
+
+
       {/* About US Section */}
       <section className="bg-gray-100" aria-labelledby="about-title">
         <div className="max-w-7xl mx-auto py-12 md:pb-30">
@@ -138,111 +150,15 @@ export default function HomePage() {
       </section>
       {/* End Of About US Section */}
 
+
+
+
       {/* Why US Section */}
-      <section className="bg-white py-12">
-        <div className="container mx-auto px-5 md:max-w-7xl">
-          {/* العناوين */}
-          <div className="text-center">
-            <h4 className="text-3xl font-semibold text-[#be9b3f] mb-4">
-              {t("Home_Why_Us")}
-            </h4>
-            <h2 className="text-3xl md:text-3xl font-bold leading-snug mb-6">
-              {t("Home_Why_Us_Title")}
-            </h2>
-          </div>
-
-          {/* الكروت */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-            {/* Vision */}
-            <article>
-              <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
-                <Image
-                  src={Home_WhyUS_OurVision}
-                  alt="Gulf Touch - Vision for the future"
-                  width={500}
-                  height={500}
-                  loading="lazy"
-                  className="w-full h-[500px] border-4 border-gray-200 rounded-3xl shadow-lg object-cover"
-                />
-                <div className="overlay absolute bg-black/50 rounded-3xl flex items-center justify-center inset-0 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                  <div className="text-white text-center p-6">
-                    <FontAwesomeIcon
-                      icon={faRibbon}
-                      size="3x"
-                      className="mb-5 text-gray-200"
-                    />
-                    <h3 className="text-2xl font-semibold mb-2">
-                      {t("Home_WhyUS_OurVision")}
-                    </h3>
-                    <p className="text-base md:text-lg max-w-md mx-auto">
-                      {t("Home_WhyUS_OurVision_Description")}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            {/* Value */}
-            <article>
-              <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
-                <Image
-                  src={Home_WhyUS_OurValue}
-                  alt="Gulf Touch - Core values"
-                  width={500}
-                  height={500}
-                  loading="lazy"
-                  className="w-full h-[500px] border-4 border-gray-200 rounded-3xl shadow-lg object-cover"
-                />
-                <div className="overlay absolute bg-black/50 rounded-3xl flex items-center justify-center inset-0 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                  <div className="text-white text-center p-6">
-                    <FontAwesomeIcon
-                      icon={faGear}
-                      size="3x"
-                      className="mb-5 text-gray-200"
-                    />
-                    <h3 className="text-2xl font-semibold mb-2">
-                      {t("Home_WhyUS_OurValue")}
-                    </h3>
-                    <p className="text-base md:text-lg max-w-md mx-auto">
-                      {t("Home_WhyUS_OurValue_Description")}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            {/* Message */}
-            <article>
-              <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
-                <Image
-                  src={Home_WhyUS_OurMessage}
-                  alt="Gulf Touch - Our mission statement"
-                  width={500}
-                  height={500}
-                  loading="lazy"
-                  className="w-full h-[500px] border-4 border-gray-200 rounded-3xl shadow-lg object-cover"
-                />
-                <div className="overlay absolute bg-black/50 rounded-3xl flex items-center justify-center inset-0 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
-                  <div className="text-white text-center p-6">
-                    <FontAwesomeIcon
-                      icon={faSpa}
-                      size="3x"
-                      className="mb-5 text-gray-200"
-                    />
-                    <h3 className="text-2xl font-semibold mb-2">
-                      {t("Home_WhyUS_OurMessage")}
-                    </h3>
-                    <p className="text-base md:text-lg max-w-md mx-auto">
-                      {t("Home_WhyUS_OurMessage_Description")}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+      <WhyUsSection />
       {/* End Of Why US Section */}
+
+
+
 
       {/* Our Services */}
       <section
@@ -358,6 +274,9 @@ export default function HomePage() {
       </section>
       {/* End Of Our Services */}
 
+
+
+
       {/* Our Projects */}
       <section
         id="our-projects"
@@ -391,68 +310,21 @@ export default function HomePage() {
       </section>
       {/* End Of Our Projects */}
 
+
+
+
       {/* Our Achievements */}
-      <section
-        id="our-achievements"
-        className="py-12 bg-white"
-        aria-labelledby="our-achievements-title"
-      >
-        <div className="container mx-auto px-5 text-center md:max-w-7xl">
-          <div className="bg-white py-12 rounded-3xl shadow-2xl">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto px-5">
-              <CounterBox
-                icon={faListCheck}
-                target={30}
-                label={t("Home_OurAchivement_Services")}
-                duration={1000}
-              />
-              <CounterBox
-                icon={faAward}
-                target={300}
-                label={t("Home_OurAchivement_Projects")}
-                duration={500}
-              />
-              <CounterBox
-                icon={faStar}
-                target={10}
-                label={t("Home_OurAchivement_Experience")}
-                duration={1000}
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <AchievementSection />
       {/* End Of Our Achievements */}
 
-      {/* Our Clients */}
-      <section
-        id="our-clients"
-        className="pt-12 bg-gray-100"
-        aria-labelledby="our-clients-title"
-      >
-        <div className="container mx-auto px-5 text-center md:max-w-7xl">
-          <header className="mb-8">
-            <p className="text-3xl font-semibold text-[#be9b3f] mb-2">
-              {t("Home_OurClients")}
-            </p>
-            <h2
-              id="our-clients-title"
-              className="text-3xl md:text-3xl font-bold leading-snug text-[#333]"
-            >
-              {t("Home_OurClients_Title")}
-            </h2>
-          </header>
 
-          {/* Clients Slider */}
-          <div
-            className="clients-slider"
-            aria-label="Our clients logos carousel"
-          >
-            <OurClientsSlider />
-          </div>
-        </div>
-      </section>
+
+
+      {/* Our Clients */}
+        <OurClientsSection/>
       {/* End Of Our Clients */}
+
+
 
       {/* Contact US */}
 
