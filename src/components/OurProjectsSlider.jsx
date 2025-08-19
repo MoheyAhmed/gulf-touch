@@ -85,7 +85,7 @@ export default function MediaSlider() {
         spaceBetween={30}
         slidesPerView={2}
         autoplay={{
-          delay: 1500,
+          delay: 2000,
           disableOnInteraction: false,
           pauseOnMouseEnter: false,
         }}
@@ -106,7 +106,7 @@ export default function MediaSlider() {
               className="flex justify-center cursor-pointer pt-30"
             >
               {/* animate-pulse  */}
-              <div className="w-full h-90 relative animate-bounce delay-20 duration-500">
+              <div className="w-full h-90 relative  delay-20 duration-500">
                 <Image
                   src={img.key}
                   alt={`Media content ${index + 1}`}

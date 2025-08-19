@@ -61,7 +61,6 @@ export default function OurClientsSlider() {
           768: { slidesPerView: 3 },
           1024: { slidesPerView: 4 },
         }}
-        pagination={{ clickable: true }}
         style={{ direction: isRTL ? "rtl" : "ltr" }}
         className="w-full"
       >
@@ -70,7 +69,7 @@ export default function OurClientsSlider() {
             key={index}
             className="flex flex-col items-center cursor-pointer py-10"
           >
-            <div className="w-full h-28 relative">
+            <div className="w-full h-28 relative ">
               <Image
                 src={client.img}
                 alt={"client name"}
@@ -79,7 +78,7 @@ export default function OurClientsSlider() {
                        (max-width: 768px) 50vw, 
                        (max-width: 1024px) 33vw, 
                        25vw"
-                className="brightness-50 hover:brightness-100 transition-all duration-500 hover:scale-105"
+                className="brightness-50 hover:brightness-100 transition-all duration-500 pb-7 hover:scale-105"
                 priority={index < 3} // preload أول 3 صور
               />
             </div>
