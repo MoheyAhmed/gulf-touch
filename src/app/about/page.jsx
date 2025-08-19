@@ -14,7 +14,7 @@ export default function page() {
 
   return (
     <>
-      <div className={`flex justify-center items-center min-h-[75vh] bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/About_Header_BG.jpg')] bg-cover bg-fixed bg-center h-[500px] w-full`}>
+      <div className={`flex justify-center items-center min-h-[85vh] bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/About_Header_BG.jpg')] bg-cover bg-fixed bg-center h-[500px] w-full`}>
         <h1
           id="about-title"
           className="text-6xl text-gray-200  font-bold  leading-snug mb-6"

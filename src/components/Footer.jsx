@@ -22,6 +22,20 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-white">
+        <div className="fixed bottom-4 start-4">
+          <Link
+            href="https://api.whatsapp.com/send/?phone=966508025823&text=مرحباً+هل+يمكنني+الحصول+على+المساعدة؟"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat with us on WhatsApp"
+          >
+            <FontAwesomeIcon
+              icon={faWhatsapp}
+              className="text-2xl mb-4 p-2 border rounded-[10px] cursor-pointer bg-green-600 text-white transition duration-300"
+            />
+          </Link>
+        </div>
+
         <div className="container mx-auto px-5 text-center md:max-w-[50%] py-12">
           {/* Navigation Links */}
           <nav aria-label="Footer navigation" className="mb-5">
@@ -44,7 +58,6 @@ export default function Footer() {
             className="flex justify-around items-center md:max-w-[50%] mx-auto"
             aria-label="Social media links"
           >
-
             <Link
               href="https://api.whatsapp.com/send/?phone=966508025823&text=مرحباً+هل+يمكنني+الحصول+على+المساعدة؟"
               target="_blank"
@@ -56,8 +69,6 @@ export default function Footer() {
                 className="text-gray-600 text-2xl mb-4 p-2 border rounded-full cursor-pointer hover:bg-green-600 hover:text-white transition duration-300"
               />
             </Link>
-
-
 
             <Link
               href="https://t.snapchat.com/7onYO8u7h"
@@ -71,7 +82,6 @@ export default function Footer() {
               />
             </Link>
 
-
             <Link
               href="http://www.tiktok.com/@gulftouch_solutions"
               target="_blank"
@@ -84,9 +94,6 @@ export default function Footer() {
               />
             </Link>
 
-
-
-
             <Link
               href="https://www.instagram.com/gulftouch_solutions?igsh=YjRuNnNsdjdnd2Ns&utm_source=qr"
               target="_blank"
@@ -98,10 +105,6 @@ export default function Footer() {
                 className="text-gray-600 text-2xl mb-4 p-2 border rounded-full cursor-pointer hover:bg-red-700 hover:text-white transition duration-300"
               />
             </Link>
-
-
-
-
           </div>
         </div>
 
