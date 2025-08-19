@@ -25,7 +25,7 @@ export default function HomePage() {
 
   return (
     <>
-      <header className="relative flex justify-center  items-center min-h-screen w-full bg-black/0">
+      <header className="relative flex justify-center md:pt-20  items-center min-h-screen w-full bg-black/0">
         {/* الخلفية */}
         <div className="absolute inset-0 -z-10">
           <video
