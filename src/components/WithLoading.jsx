@@ -1,8 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function WithLoading({ children, duration = 3000 }) {
+  const { t } = useTranslation();
+
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -18,7 +21,7 @@ export default function WithLoading({ children, duration = 3000 }) {
         <div className="w-5 h-5 bg-green-500 rounded-full animate-bounce"></div>
         <div>
           <p className="text-lg animate-pulse text-blue-600 font-bold">
-            Loading ...
+            {t("Loading")} ...
           </p>
         </div>
       </div>
