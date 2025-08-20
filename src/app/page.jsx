@@ -5,20 +5,14 @@ import headerHomeImage from "../assets/images/home header image.svg";
 import Home_About_Section from "../assets/images/Home_About_Section.jpg";
 import Home_About_Vision from "../assets/images/Home_About_Vision.png";
 import Home_OurServicesBG from "../assets/images/Home_About_Vision.png";
-import {
-  faChartLine,
-  faLaptopCode,
-  faPenToSquare,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import TechSlider from "@/components/TechSlider";
-import DigitalMarketingSlider from "@/components/DigitalMarketingSlider";
-import MediaContentSlider from "@/components/MediaContentProductionSlider";
 import Link from "next/link";
 import OurProjectsSlider from "@/components/OurProjectsSlider";
 import AchievementSection from "@/components/AchievementSection";
 import WhyUsSection from "@/components/WhyUsSection";
 import OurClientsSection from "@/components/OurClientsSection";
+import ServicesWebDesign from "@/components/ServicesWebDesign";
+import ServicesDigitalMarketing from "@/components/ServicesDigitalMarketing";
+import ServicesMediaContentProduction from "@/components/ServicesMediaContentProduction";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -130,7 +124,7 @@ export default function HomePage() {
                 </p>
 
                 <Link
-                  href="#contact"
+                  href="/about"
                   className="inline-block bg-[#be9b3f] hover:bg-[#a38434] transition px-6 py-3 rounded-lg font-semibold shadow-md text-white"
                   role="button"
                   aria-label="Contact Gulf Touch team"
@@ -181,73 +175,13 @@ export default function HomePage() {
           {/* Services Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
             {/* Service 1 */}
-            <div className="hover:scale-105 p-6 rounded-3xl shadow-2xl cursor-pointer border-4 border-gray-400 transition-all duration-500">
-              <div>
-                <FontAwesomeIcon
-                  icon={faLaptopCode}
-                  size="3x"
-                  className="text-white mb-4 p-6 rounded-full border-gray-300"
-                  aria-hidden="true"
-                />
-              </div>
-              <div>
-                <h3 className="text-2xl font-semibold mb-7 text-[#be9b3f]">
-                  {t("Home_OurServices_web")}
-                </h3>
-                <p className="text-xl text-gray-300">
-                  {t("Home_OurServices_web_Title")}
-                </p>
-              </div>
-              <div>
-                <TechSlider />
-              </div>
-            </div>
+            <ServicesWebDesign />
 
             {/* Service 2 */}
-            <div className="hover:scale-105 p-6 rounded-3xl shadow-2xl cursor-pointer border-4 border-gray-400 transition-all duration-500">
-              <div>
-                <FontAwesomeIcon
-                  icon={faChartLine}
-                  size="3x"
-                  className="text-white mb-4 p-6 rounded-full border-gray-300"
-                  aria-hidden="true"
-                />
-              </div>
-              <div>
-                <h3 className="text-2xl font-semibold mb-7 text-[#be9b3f]">
-                  {t("Home_OurServices_DigitalMarketing")}
-                </h3>
-                <p className="text-xl text-gray-300">
-                  {t("Home_OurServices_DigitalMarketing_Title")}
-                </p>
-              </div>
-              <div>
-                <DigitalMarketingSlider />
-              </div>
-            </div>
+            <ServicesDigitalMarketing />
 
             {/* Service 3 */}
-            <div className="hover:scale-105 p-6 rounded-3xl shadow-2xl cursor-pointer border-4 border-gray-400 transition-all duration-500">
-              <div>
-                <FontAwesomeIcon
-                  icon={faPenToSquare}
-                  size="3x"
-                  className="text-white mb-4 p-6 rounded-full border-gray-300"
-                  aria-hidden="true"
-                />
-              </div>
-              <div>
-                <h3 className="text-2xl font-semibold mb-7 text-[#be9b3f]">
-                  {t("Home_OurServices_MediaContentProduction")}
-                </h3>
-                <p className="text-xl text-gray-300">
-                  {t("Home_OurServices_MediaContentProduction_Title")}
-                </p>
-              </div>
-              <div>
-                <MediaContentSlider />
-              </div>
-            </div>
+            <ServicesMediaContentProduction />
           </div>
         </div>
 
