@@ -14,6 +14,7 @@ import ServicesWebDesign from "@/components/ServicesWebDesign";
 import ServicesDigitalMarketing from "@/components/ServicesDigitalMarketing";
 import ServicesMediaContentProduction from "@/components/ServicesMediaContentProduction";
 import WithLoading from "@/components/WithLoading";
+import Contact from "@/components/Contact";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -242,18 +243,7 @@ export default function HomePage() {
         {/* End Of Our Clients */}
 
         {/* Contact US */}
-
-        {/* <section className="pb-12 bg-white">
-        <div className="container mx-auto px-5 text-center md:max-w-7xl">
-
-          <div className="bg-white py-12 rounded-3xl shadow-2xl mt-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto px-5">
-              
-            </div>
-          </div>
-
-        </div>
-      </section> */}
+        <Contact />
 
         {/* End Of Contact US */}
       </WithLoading>
