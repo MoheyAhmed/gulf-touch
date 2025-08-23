@@ -58,7 +58,26 @@
   "Services_Printing" : "Printing Services",
   "Services_Printing_Description" : "We deliver high-quality printing solutions tailored to your business needs. From marketing materials and corporate stationery to packaging and large-format prints, we ensure professional results that enhance your brand presence.",
   "Services_Title" : "Empowering your vision with innovation.",
-  "Services_Description" : "At Gulf Touch, we deliver creative and integrated technology solutions — from web and mobile development to branding, digital marketing, printing, and events management. Our goal is to help your business grow, connect, and stand out across every platform."
-  
+  "Services_Description" : "At Gulf Touch, we deliver creative and integrated technology solutions — from web and mobile development to branding, digital marketing, printing, and events management. Our goal is to help your business grow, connect, and stand out across every platform.",
+  "Contact_Page_Title" : "Your Gateway to Professional Success — Get in Touch with Us",
+  "Contact_Us" : "Contact Us",
+  "Contact_Us_Title" : "We are here to Assist you!",
+  "Contact_Us_Head" : "Send Us a Message",
+  "Contact_Us_Head_Title" : "Get Your Free Consultation Today" ,
+  "Contact_Us_Head_Description" : "Take the first step towards success with our expert team and discover how Gulf Touch can strengthen your digital presence and help you achieve your business goals.",
+  "Contact_Email" : "Email",
+  "Contact_Phone" : "Phone",
+  "Contact_Phone_Details" : "(+966) 508025823",
+  "Contact_Location" : "Location",
+  "Contact_Location_Details" : "Riyadh, Saudi Arabia",
+  "Form_fName" : "First Name",
+  "Form_lName" : "Last Name",
+  "Form_Email" : "Email",
+  "Form_Phone" : " Phone number (123-456-7890)",
+  "Form_Message" : "Leave Your Message ...",
+  "Form_SendMessage" : "Send Message"
+
+
+
 
 }

@@ -22,7 +22,7 @@ export default function HomePage() {
   return (
     <>
       <WithLoading duration={2500}>
-        <header className="relative flex justify-center md:pt-20  items-center min-h-screen w-full bg-black/0">
+        <header className="relative flex justify-center pt-20  items-center min-h-screen w-full bg-black/0">
           {/* الخلفية */}
           <div className="absolute inset-0 -z-10">
             <video
@@ -104,7 +104,7 @@ export default function HomePage() {
                     <Image
                       src={Home_About_Vision}
                       alt="Gulf Touch vision and mission"
-                      className="border-4 md:absolute border-gray-200 rounded-3xl shadow-lg md:-mt-[40%] lg:start-1/2 transform"
+                      className="border-4 md:absolute border-gray-200 rounded-3xl shadow-lg md:-mt-[20%] xl:-mt-[40%] lg:start-1/2 transform"
                       loading="lazy"
                     />
                   </div>
@@ -243,7 +243,11 @@ export default function HomePage() {
         {/* End Of Our Clients */}
 
         {/* Contact US */}
-        <Contact />
+        <div className="py-15">
+          <div className="container mx-auto md:max-w-[70%]">
+            <Contact />
+          </div>
+        </div>
 
         {/* End Of Contact US */}
       </WithLoading>
