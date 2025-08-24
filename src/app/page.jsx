@@ -21,13 +21,13 @@ export default function HomePage() {
 
   return (
     <>
-      <WithLoading duration={2500}>
+      {/* <WithLoading duration={2500}> */}
         <header className="relative flex justify-center pt-20  items-center min-h-screen w-full bg-black/0">
           {/* الخلفية */}
           <div className="absolute inset-0 -z-10">
             <video
               className="absolute inset-0 w-full h-full object-cover"
-              src="/headerHomeBG.webm"
+              src="https://res.cloudinary.com/dab3mbbjb/video/upload/v1756023116/headerHomeBG_hansl2.webm"
               autoPlay
               loop
               muted
@@ -76,7 +76,9 @@ export default function HomePage() {
             {/* الصورة */}
             <div className="pb-10 md:pb-0">
               <Image
-                src={headerHomeImage}
+                src={
+                  "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022853/home_header_image_h6yyqu.svg"
+                }
                 alt="Gulf Touch header visual showing innovation and digital solutions"
                 width={400}
                 height={300}
@@ -96,16 +98,24 @@ export default function HomePage() {
                 <div className="order-2 md:order-1">
                   <div className="relative">
                     <Image
-                      src={Home_About_Section}
+                      src={
+                        "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022854/Home_About_Section_mkt6ae.png"
+                      }
                       alt="Gulf Touch company overview"
                       className="w-full h-auto border-4 border-gray-200 rounded-3xl shadow-lg"
                       priority
+                      width={400}
+                      height={300}
                     />
                     <Image
-                      src={Home_About_Vision}
+                      src={
+                        "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022852/Home_About_Vision_vq5a8i.png"
+                      }
                       alt="Gulf Touch vision and mission"
                       className="border-4 md:absolute border-gray-200 rounded-3xl shadow-lg md:-mt-[20%] xl:-mt-[40%] lg:start-1/2 transform"
                       loading="lazy"
+                      width={400}
+                      height={300}
                     />
                   </div>
                 </div>
@@ -151,7 +161,7 @@ export default function HomePage() {
         <section
           className="py-12 bg-fixed bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${Home_OurServicesBG.src})`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022852/Home_About_Vision_vq5a8i.png)`,
           }}
           aria-labelledby="our-services-title"
         >
@@ -250,7 +260,7 @@ export default function HomePage() {
         </div>
 
         {/* End Of Contact US */}
-      </WithLoading>
+      {/* </WithLoading> */}
     </>
   );
 }

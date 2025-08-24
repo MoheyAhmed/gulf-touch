@@ -33,48 +33,48 @@ export default function MediaSlider() {
 
   const images = [
     {
-      key: Home_OurProjects1_Branding,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022849/Home_OurProjects1_Branding_fttxre.jpg',
       category: t("Home_OurProjects_Category_Branding"),
     },
     {
-      key: Home_OurProjects1_Website,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022828/Home_OurProjects1_Website_krasky.jpg',
       category: t("Home_OurProjects_Category_Website"),
     },
     {
-      key: Home_OurProjects1_Printing,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022828/Home_OurProjects1_Printing_qxcw7h.jpg',
       category: t("Home_OurProjects_Printing"),
     },
     {
-      key: Home_OurProjects1_MediaProduction,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022828/Home_OurProjects1_MediaProduction_v7kogx.jpg',
       category: t("Home_OurProjects_MediaContentProduction"),
     },
     {
-      key: Home_OurProjects1_DigitalMarketing,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022829/Home_OurProjects1_DigitalMarketing_lqz8gp.jpg',
       category: t("Home_OurProjects_DigitalMarketing"),
     },
-    { key: Home_OurProjects1_Events, category: t("Home_OurProjects_Event") },
+    { key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022828/Home_OurProjects1_Events_gcxct1.jpg', category: t("Home_OurProjects_Event") },
 
     {
-      key: Home_OurProjects2_Branding,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022828/Home_OurProjects2_Branding_mij9wb.jpg',
       category: t("Home_OurProjects_Category_Branding"),
     },
     {
-      key: Home_OurProjects2_Website,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022834/Home_OurProjects2_Website_qbfncd.jpg',
       category: t("Home_OurProjects_Category_Website"),
     },
     {
-      key: Home_OurProjects2_Printing,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022832/Home_OurProjects2_Printing_z9rnsp.jpg',
       category: t("Home_OurProjects_Printing"),
     },
     {
-      key: Home_OurProjects2_MediaProduction,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022830/Home_OurProjects2_MediaProduction_wiyad8.jpg',
       category: t("Home_OurProjects_MediaContentProduction"),
     },
     {
-      key: Home_OurProjects2_DigitalMarketing,
+      key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022829/Home_OurProjects2_DigitalMarketing_izun3v.jpg',
       category: t("Home_OurProjects_DigitalMarketing"),
     },
-    { key: Home_OurProjects2_Events, category: t("Home_OurProjects_Event") },
+    { key: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022829/Home_OurProjects2_Events_fzmhkr.jpg', category: t("Home_OurProjects_Event") },
   ];
 
   return (

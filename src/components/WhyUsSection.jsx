@@ -29,7 +29,7 @@ export default function WhyUsSection() {
             <article>
               <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
                 <Image
-                  src={Home_WhyUS_OurVision}
+                  src={'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022834/Home_WhyUS_OurVision_ums6c7.png'}
                   alt="Gulf Touch - Vision for the future"
                   width={500}
                   height={500}
@@ -58,7 +58,7 @@ export default function WhyUsSection() {
             <article>
               <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
                 <Image
-                  src={Home_WhyUS_OurValue}
+                  src={'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022834/Home_WhyUS_OurValue_t7p7x8.png'}
                   alt="Gulf Touch - Core values"
                   width={500}
                   height={500}
@@ -87,7 +87,7 @@ export default function WhyUsSection() {
             <article>
               <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
                 <Image
-                  src={Home_WhyUS_OurMessage}
+                  src={'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022835/Home_WhyUS_OurMessage_sn3yas.png'}
                   alt="Gulf Touch - Our mission statement"
                   width={500}
                   height={500}

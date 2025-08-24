@@ -31,16 +31,16 @@ export default function OurClientsSlider() {
   const isRTL = (i18n.language || "en").startsWith("ar");
 
   const clients = [
-    { img: Client1},
-    { img: Client2},
-    { img: Client3},
-    { img: Client4},
-    { img: Client5},
-    { img: Client6},
-    { img: Client7},
-    { img: Client8},
-    { img: Client9},
-    { img: Client10}
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022835/client1_duya7o.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022835/client2_i4aqjt.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022840/client3_bc9zak.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022840/client4_kdttkj.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022841/client5_cwtcst.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022841/client6_kdmoir.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022841/client7_qbdyup.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022841/client8_h4giay.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022842/client9_znqsfh.svg'},
+    { img: 'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022842/client10_t4bimv.svg'}
   ];
 
   return (
