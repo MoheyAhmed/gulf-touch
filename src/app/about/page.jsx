@@ -2,9 +2,6 @@
 import AchievementSection from "@/components/AchievementSection";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Home_About_Section from "../../assets/images/Home_About_Section.jpg";
-import About_US_Services from "../../assets/images/About_Us_services.jpg";
-import About_US_Magic from "../../assets/images/About_Us_Magic.jpg";
 import Image from "next/image";
 import WhyUsSection from "@/components/WhyUsSection";
 import Link from "next/link";
@@ -14,7 +11,9 @@ export default function page() {
 
   return (
     <>
-      <div className={`flex justify-center items-center min-h-[85vh] bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/About_Header_BG.jpg')] bg-cover bg-fixed bg-center h-[500px] w-full`}>
+      <div
+        className={`flex justify-center items-center min-h-[85vh] bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://res.cloudinary.com/dab3mbbjb/image/upload/v1756023127/About_Header_BG_no1cu1.jpg')] bg-cover bg-fixed bg-center h-[500px] w-full`}
+      >
         <h1
           id="about-title"
           className="text-6xl text-gray-200  font-bold  leading-snug mb-6"
@@ -33,28 +32,40 @@ export default function page() {
               {/* الصورة */}
               <div className="md:w-[70%]">
                 <div className="relative ">
-                  <div >
+                  <div>
                     <Image
-                      src={About_US_Magic}
+                      src={
+                        "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022835/About_Us_Magic_fwxla8.jpg"
+                      }
                       alt="Gulf Touch vision and mission"
                       className="border-4 hidden lg:block lg:w-[50%] md:flex lg:absolute border-gray-200 rounded-3xl shadow-lg lg:-mt-[5%] top-0 lg:-start-[20%] transform"
                       loading="lazy"
+                      width={600}
+                      height={400}
                     />
                   </div>
                   <div>
                     <Image
-                      src={Home_About_Section}
+                      src={
+                        "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022854/Home_About_Section_mkt6ae.png"
+                      }
                       alt="Gulf Touch company overview"
                       className="w-full h-auto border-4 border-gray-200 rounded-3xl shadow-lg"
-                      priority
+                      width={400}
+                      height={300}
+                      loading="lazy"
                     />
                   </div>
                   <div>
                     <Image
-                      src={About_US_Services}
+                      src={
+                        "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756023115/About_Us_services_wegrlk.jpg"
+                      }
                       alt="Gulf Touch vision and mission"
                       className="border-4 hidden lg:block lg:w-[80%] lg:absolute border-gray-200 rounded-3xl shadow-lg lg:-bottom-[10%] lg:start-1/3 transform"
                       loading="lazy"
+                      width={800}
+                      height={500}
                     />
                   </div>
                 </div>

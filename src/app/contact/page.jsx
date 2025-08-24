@@ -10,7 +10,7 @@ export default function ContactPage() {
   return (
     <>
       <div
-        className={`flex justify-center items-center min-h-[85vh] bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/contactBG.jpg')] bg-cover bg-fixed bg-center h-[500px] w-full`}
+        className={`flex justify-center items-center min-h-[85vh] bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://res.cloudinary.com/dab3mbbjb/image/upload/v1756037212/contactBG_zgb33c.jpg')] bg-cover bg-fixed bg-center h-[500px] w-full`}
       >
         <div className="container mx-auto text-center">
             <h1

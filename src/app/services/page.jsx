@@ -14,7 +14,7 @@ export default function page() {
   return (
     <>
       <div
-        className={`flex justify-center items-center min-h-[100vh] bg-no-repeat bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/About_Header_BG.jpg')] bg-cover bg-fixed bg-center h-[500px] w-full`}
+        className={`flex justify-center items-center min-h-[100vh] bg-no-repeat bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://res.cloudinary.com/dab3mbbjb/image/upload/v1756023127/About_Header_BG_no1cu1.jpg')] bg-cover bg-fixed bg-center h-[500px] w-full`}
       >
         <h1
           id="about-title"
@@ -25,7 +25,7 @@ export default function page() {
       </div>
 
       <section
-        className="py-12 bg-fixed bg-cover bg-center bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/About_Us_services.jpg')]"
+        className="py-12 bg-fixed bg-cover bg-center bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://res.cloudinary.com/dab3mbbjb/image/upload/v1756023115/About_Us_services_wegrlk.jpg')]"
         // style={{
         //   backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${Home_OurServicesBG.src})`,
         // }}

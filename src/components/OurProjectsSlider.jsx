@@ -1,26 +1,11 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import Image from "next/image";
-
 import "swiper/css";
 import "swiper/css/pagination";
-
-import Home_OurProjects1_Branding from "../assets/images/Home_OurProjects1_Branding.jpg";
-import Home_OurProjects2_Branding from "../assets/images/Home_OurProjects2_Branding.jpg";
-import Home_OurProjects1_Website from "../assets/images/Home_OurProjects1_Website.jpg";
-import Home_OurProjects2_Website from "../assets/images/Home_OurProjects2_Website.jpg";
-import Home_OurProjects1_Printing from "../assets/images/Home_OurProjects1_Printing.jpg";
-import Home_OurProjects2_Printing from "../assets/images/Home_OurProjects2_Printing.jpg";
-import Home_OurProjects1_MediaProduction from "../assets/images/Home_OurProjects1_MediaProduction.jpg";
-import Home_OurProjects2_MediaProduction from "../assets/images/Home_OurProjects2_MediaProduction.jpg";
-import Home_OurProjects1_DigitalMarketing from "../assets/images/Home_OurProjects1_DigitalMarketing.jpg";
-import Home_OurProjects2_DigitalMarketing from "../assets/images/Home_OurProjects2_DigitalMarketing.jpg";
-import Home_OurProjects1_Events from "../assets/images/Home_OurProjects1_Events.jpg";
-import Home_OurProjects2_Events from "../assets/images/Home_OurProjects2_Events.jpg";
 
 export default function MediaSlider() {
   const { i18n, t } = useTranslation();

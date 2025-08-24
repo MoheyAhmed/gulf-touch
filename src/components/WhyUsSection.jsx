@@ -1,8 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Home_WhyUS_OurVision from "../assets/images/Home_WhyUS_OurVision.jpg";
-import Home_WhyUS_OurValue from "../assets/images/Home_WhyUS_OurValue.jpg";
-import Home_WhyUS_OurMessage from "../assets/images/Home_WhyUS_OurMessage.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear, faRibbon, faSpa } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
@@ -29,7 +26,9 @@ export default function WhyUsSection() {
             <article>
               <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
                 <Image
-                  src={'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022834/Home_WhyUS_OurVision_ums6c7.png'}
+                  src={
+                    "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022834/Home_WhyUS_OurVision_ums6c7.png"
+                  }
                   alt="Gulf Touch - Vision for the future"
                   width={500}
                   height={500}
@@ -58,7 +57,9 @@ export default function WhyUsSection() {
             <article>
               <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
                 <Image
-                  src={'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022834/Home_WhyUS_OurValue_t7p7x8.png'}
+                  src={
+                    "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022834/Home_WhyUS_OurValue_t7p7x8.png"
+                  }
                   alt="Gulf Touch - Core values"
                   width={500}
                   height={500}
@@ -87,7 +88,9 @@ export default function WhyUsSection() {
             <article>
               <div className="cursor-pointer relative group overflow-hidden rounded-3xl">
                 <Image
-                  src={'https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022835/Home_WhyUS_OurMessage_sn3yas.png'}
+                  src={
+                    "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756022835/Home_WhyUS_OurMessage_sn3yas.png"
+                  }
                   alt="Gulf Touch - Our mission statement"
                   width={500}
                   height={500}

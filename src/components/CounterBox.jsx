@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faListCheck } from "@fortawesome/free-solid-svg-icons";
 
 const CounterBox = ({ target = 30, duration = 2000, icon, label }) => {
   const [count, setCount] = useState(0);

@@ -1,10 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-import headerHomeImage from "../assets/images/home header image.svg";
-import Home_About_Section from "../assets/images/Home_About_Section.jpg";
-import Home_About_Vision from "../assets/images/Home_About_Vision.png";
-import Home_OurServicesBG from "../assets/images/Home_About_Vision.png";
 import Link from "next/link";
 import OurProjectsSlider from "@/components/OurProjectsSlider";
 import AchievementSection from "@/components/AchievementSection";

@@ -4,9 +4,6 @@ import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
-import SaudiIcon from "../assets/images/saudiIcon.png";
-import EnglandIcon from "../assets/images/EnglandIcon.png";
-import gulfTouchLogo from "../assets/images/logo Gulf Touch.svg";
 
 export default function Navbar() {
   const { language, toggleLanguage } = useLanguage();
@@ -34,8 +31,8 @@ export default function Navbar() {
                 <Image
                   alt="Gulf Touch Logo"
                   width={150}
-                  
-                  src={gulfTouchLogo}
+                  height={50}
+                  src={'/logo Gulf Touch.svg'}
                 />
               </div>
             </Link>
@@ -53,16 +50,18 @@ export default function Navbar() {
                 {language === "en" ? (
                   <Image
                     className="cursor-pointer"
-                    src={SaudiIcon}
+                    src={'/saudiIcon.png'}
                     alt="Switch to Arabic"
                     width={28}
+                    height={20}
                   />
                 ) : (
                   <Image
                     className="cursor-pointer"
-                    src={EnglandIcon}
+                    src={'/EnglandIcon.png'}
                     alt="Switch to English"
                     width={28}
+                     height={20}
                   />
                 )}
               </button>
@@ -90,7 +89,7 @@ export default function Navbar() {
                 {language === "en" ? (
                   <Image
                     className="cursor-pointer"
-                    src={SaudiIcon}
+                    src={'/saudiIcon.png'}
                     alt="Switch to Arabic"
                     width={28}
                     height={20}
@@ -98,7 +97,7 @@ export default function Navbar() {
                 ) : (
                   <Image
                     className="cursor-pointer"
-                    src={EnglandIcon}
+                    src={'/EnglandIcon.png'}
                     alt="Switch to English"
                     width={28}
                     height={20}

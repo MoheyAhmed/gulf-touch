@@ -10,16 +10,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // استيراد صور العملاء
-import Client1 from "../assets/images/client1.svg";
-import Client2 from "../assets/images/client2.svg";
-import Client3 from "../assets/images/client3.svg";
-import Client4 from "../assets/images/client4.svg";
-import Client5 from "../assets/images/client5.svg";
-import Client6 from "../assets/images/client6.svg";
-import Client7 from "../assets/images/client7.svg";
-import Client8 from "../assets/images/client8.svg";
-import Client9 from "../assets/images/client9.svg";
-import Client10 from "../assets/images/client10.svg";
 
 
 export default function OurClientsSlider() {

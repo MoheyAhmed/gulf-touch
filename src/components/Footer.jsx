@@ -1,5 +1,4 @@
 "use client";
-import { faF } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import React from "react";
 import { useTranslation } from "react-i18next";
