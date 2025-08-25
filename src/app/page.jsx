@@ -31,8 +31,6 @@ export default function HomePage() {
             preload="metadata"
             poster="/headerHomeBG.jpg"
             aria-hidden="true"
-            priority
-            fetchPriority="high"
           />
 
           {/* <Image
