@@ -80,8 +80,8 @@ export default function HomePage() {
               height={300}
               // loading="lazy"
               // priority={false}
-              priority
-              fetchPriority="high"
+              // priority
+              // fetchPriority="high"
             />
           </div>
         </div>
