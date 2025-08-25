@@ -31,6 +31,8 @@ export default function HomePage() {
             preload="metadata"
             poster="/headerHomeBG.jpg"
             aria-hidden="true"
+            priority
+            fetchPriority="high"
           />
 
           {/* <Image
@@ -78,8 +80,10 @@ export default function HomePage() {
               alt="Gulf Touch header visual showing innovation and digital solutions"
               width={400}
               height={300}
-              loading="lazy"
-              priority={false}
+              // loading="lazy"
+              // priority={false}
+              priority
+              fetchPriority="high"
             />
           </div>
         </div>
