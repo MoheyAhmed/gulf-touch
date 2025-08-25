@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap'); 
 
 body {
-  font-family: var(--font-arabic) !important;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
   font-weight: 400;
   color: #333!important;
 }

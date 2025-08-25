@@ -9,7 +9,7 @@ export default function OurClientsSection() {
     <>
       <section
         id="our-clients"
-        className="pt-12 bg-gray-100"
+        className="pt-12"
         aria-labelledby="our-clients-title"
       >
         <div className="container mx-auto px-5 text-center md:max-w-7xl">

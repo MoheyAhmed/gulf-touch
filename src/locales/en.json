@@ -37,7 +37,7 @@
   "Home_OurProjects_Title": "Building lasting partnerships on trust and success.",
   "Home_OurProjects_Description": "At Gulf Touch, we deliver tailored digital solutions, including app development, website design, and brand identity creation, to enhance your digital presence and drive business growth.",
   "Home_OurProjects_Category_Branding" : "Branding",
-  "Home_OurProjects_Category_Website" : "Website",
+  "Home_OurProjects_Category_Website" : "Web and Development",
   "Home_OurProjects_DigitalMarketing": "Digital Marketing",
   "Home_OurProjects_MediaContentProduction": "Media Content Production",
   "Home_OurProjects_Printing": "Printing Services",
@@ -75,7 +75,13 @@
   "Form_Email" : "Email",
   "Form_Phone" : " Phone number (123-456-7890)",
   "Form_Message" : "Leave Your Message ...",
-  "Form_SendMessage" : "Send Message"
+  "Form_SendMessage" : "Send Message",
+  "Projects_Intro": "At Gulf Touch, we drive your digital growth through innovative and tailored projects designed to achieve measurable impact.",
+  "Projects_Mobile": "- Mobile Applications: Custom iOS and Android apps that enhance engagement and align with your business goals.",
+  "Projects_Web": "- Web Design & Development: Professional, responsive websites that reflect your brand and deliver seamless user experiences.",
+  "Projects_Brand": "- Brand Identity Design: Unique logos and visual identities that strengthen your presence and attract your audience.",
+  "Projects_Marketing": "- Digital Marketing: Integrated solutions including ad campaign management, social media strategies, and SEO to amplify your reach.",
+  "Projects_Closing": "Through our projects, we deliver real value and tangible results, supporting businesses in line with Saudi Vision 2030 and helping them navigate evolving market challenges."
 
 
 
