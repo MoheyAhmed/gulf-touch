@@ -1,6 +1,6 @@
 "use client";
-import AchievementSection from "@/components/AchievementSection";
-import OurClientsSection from "@/components/OurClientsSection";
+import AchievementSection from "@/components/AchievementSection/AchievementSection";
+import OurClientsSection from "@/components/OurClients/OurClientsSection";
 import {
   brandingImages,
   digitalMarketingImages,

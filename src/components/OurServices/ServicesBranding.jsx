@@ -2,7 +2,8 @@ import { faChartLine } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import BrandingSlider from "./BrandingSlider";
+import ServicesSlider from "../ServicesSlider/ServicesSlider";
+import { branding } from "@/components/ServicesSlider/servicesSliderImages";
 
 export default function ServicesBranding() {
     const { t } = useTranslation();
@@ -27,7 +28,7 @@ export default function ServicesBranding() {
           </p>
         </div>
         <div>
-          <BrandingSlider />
+          <ServicesSlider  items={branding}/>
         </div>
       </div>
     </>

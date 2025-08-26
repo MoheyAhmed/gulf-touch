@@ -1,10 +1,10 @@
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import { IBM_Plex_Sans_Arabic } from "next/font/google";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
-import Footer from "@/components/Footer";
+import Footer from "@/components/Footer/Footer";
 config.autoAddCss = false;
 
 const IBM = IBM_Plex_Sans_Arabic({

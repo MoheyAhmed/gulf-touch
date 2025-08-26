@@ -1,9 +1,9 @@
 "use client";
-import AchievementSection from "@/components/AchievementSection";
+import AchievementSection from "@/components/AchievementSection/AchievementSection";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
-import WhyUsSection from "@/components/WhyUsSection";
+import WhyUsSection from "@/components/WhyUsSection/WhyUsSection";
 import Link from "next/link";
 
 export default function page() {
@@ -97,7 +97,7 @@ export default function page() {
 
                 <div className="text-center">
                   <Link
-                    href=""
+                    href="/services"
                     className="inline-block bg-[#be9b3f] hover:bg-[#a38434] transition px-6 py-3 rounded-lg font-semibold shadow-md text-white"
                     role="button"
                     aria-label="Contact Gulf Touch team"

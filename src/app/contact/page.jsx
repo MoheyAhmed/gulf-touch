@@ -1,6 +1,6 @@
 "use client";
 
-import Contact from "@/components/Contact";
+import Contact from "@/components/Contact/Contact";
 import React from "react";
 import { useTranslation } from "react-i18next";
 

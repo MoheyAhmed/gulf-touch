@@ -1,10 +1,10 @@
 "use client";
-import ServicesBranding from "@/components/ServicesBranding";
-import ServicesDigitalMarketing from "@/components/ServicesDigitalMarketing";
-import ServicesEvents from "@/components/ServicesEvents";
-import ServicesMediaContentProduction from "@/components/ServicesMediaContentProduction";
-import ServicesPrinting from "@/components/ServicesPrinting";
-import ServicesWebDesign from "@/components/ServicesWebDesign";
+import ServicesBranding from "@/components/OurServices/ServicesBranding";
+import ServicesDigitalMarketing from "@/components/OurServices/ServicesDigitalMarketing";
+import ServicesEvents from "@/components/OurServices/ServicesEvents";
+import ServicesMediaContentProduction from "@/components/OurServices/ServicesMediaContentProduction";
+import ServicesPrinting from "@/components/OurServices/ServicesPrinting";
+import ServicesWebDesign from "@/components/OurServices/ServicesWebDesign";
 import React from "react";
 import { useTranslation } from "react-i18next";
 

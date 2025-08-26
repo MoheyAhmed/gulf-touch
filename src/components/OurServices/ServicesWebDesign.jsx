@@ -1,8 +1,10 @@
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import TechSlider from "./TechSlider";
 import { useTranslation } from "react-i18next";
+import { techs } from "@/components/ServicesSlider/servicesSliderImages";
+import ServicesSlider from "../ServicesSlider/ServicesSlider";
+
 
 export default function ServicesWebDesign() {
   const { t } = useTranslation();
@@ -27,7 +29,7 @@ export default function ServicesWebDesign() {
           </p>
         </div>
         <div>
-          <TechSlider />
+          <ServicesSlider items={techs} />
         </div>
       </div>
     </>

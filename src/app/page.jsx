@@ -2,15 +2,15 @@
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
-import OurProjectsSlider from "@/components/OurProjectsSlider";
-import AchievementSection from "@/components/AchievementSection";
-import WhyUsSection from "@/components/WhyUsSection";
-import OurClientsSection from "@/components/OurClientsSection";
-import ServicesWebDesign from "@/components/ServicesWebDesign";
-import ServicesDigitalMarketing from "@/components/ServicesDigitalMarketing";
-import ServicesMediaContentProduction from "@/components/ServicesMediaContentProduction";
-import WithLoading from "@/components/WithLoading";
-import Contact from "@/components/Contact";
+import OurProjectsSlider from "@/components/OurProjectsComponents/OurProjectsSlider";
+import AchievementSection from "@/components/AchievementSection/AchievementSection";
+import WhyUsSection from "@/components/WhyUsSection/WhyUsSection";
+import OurClientsSection from "@/components/OurClients/OurClientsSection";
+import ServicesWebDesign from "@/components/OurServices/ServicesWebDesign";
+import ServicesDigitalMarketing from "@/components/OurServices/ServicesDigitalMarketing";
+import ServicesMediaContentProduction from "@/components/OurServices/ServicesMediaContentProduction";
+import WithLoading from "@/components/WithLoading/WithLoading";
+import Contact from "@/components/Contact/Contact";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -200,7 +200,7 @@ export default function HomePage() {
         <div className="flex justify-center">
           <Link
             href="/services"
-            className="mt-10 py-2 px-4 text-xl hover:bg-blue-500 hover:border-0 transition duration-500 border rounded-xl text-gray-200"
+            className="mt-10 py-2 px-4 text-xl hover:bg-[#be9b3f] hover:border-0 transition duration-500 border rounded-xl text-gray-200"
             aria-label="View all services offered by Gulf Touch"
           >
             {t("Home_AllServices_Button")}

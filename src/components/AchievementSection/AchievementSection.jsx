@@ -1,7 +1,7 @@
 import React from "react";
-import CounterBox from "./CounterBox";
 import { faAward, faListCheck, faStar } from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
+import CounterBox from "../CounterBox/CounterBox";
 
 export default function AchievementSection() {
       const { t } = useTranslation();

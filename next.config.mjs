@@ -7,6 +7,16 @@ const nextConfig = {
         hostname: "res.cloudinary.com",
         pathname: "/dab3mbbjb/**",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.jsdelivr.net",
+        pathname: "/gh/devicons/**",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn-icons-png.flaticon.com",
+        pathname: "/**",
+      },
     ],
   },
 };

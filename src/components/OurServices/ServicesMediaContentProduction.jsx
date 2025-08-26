@@ -2,7 +2,9 @@ import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import MediaContentSlider from "./MediaContentProductionSlider";
+import ServicesSlider from "../ServicesSlider/ServicesSlider";
+import { media } from "@/components/ServicesSlider/servicesSliderImages";
+
 
 export default function ServicesMediaContentProduction() {
   const { t } = useTranslation();
@@ -26,7 +28,7 @@ export default function ServicesMediaContentProduction() {
           </p>
         </div>
         <div>
-          <MediaContentSlider />
+          <ServicesSlider items={media}  slidesPerView = {3} />
         </div>
       </div>
     </>
