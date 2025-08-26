@@ -61,12 +61,15 @@ export default function HomePage() {
               {t("HomeHeaderH2")}
             </h3>
             <p className="text-base md:text-lg mb-6">{t("HomeHeaderP")}</p>
-            <a
-              href="#contact"
+            <Link
+            href="https://api.whatsapp.com/send/?phone=966508025823&text=مرحباً+هل+يمكنني+الحصول+على+المساعدة؟"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat with us on WhatsApp"
               className="inline-block bg-[#be9b3f] hover:bg-green-700 transition px-6 py-3 rounded-lg font-semibold shadow-md"
             >
               {t("HomeHeaderButton")}
-            </a>
+            </Link>
           </div>
 
           {/* الصورة */}
