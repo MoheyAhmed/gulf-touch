@@ -10,9 +10,9 @@ export default function OurProjects({images}) {
           <Image
             src={img.src}
             alt={img.alt}
-            className="rounded-3xl cursor-pointer border-4 hover:-translate-y-4 transition-all duration-500 border-slate-200 shadow-lg h-full"
-            width={1200}
-            height={900}
+            className="rounded-3xl cursor-pointer border-4 hover:-translate-y-4 transition-all duration-500 border-slate-200 shadow-lg h-[500px]"
+            width={1920}
+            height={1080}
             sizes="(max-width: 768px) 100vw,
          (max-width: 1200px) 50vw,
          33vw"

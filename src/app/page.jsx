@@ -11,6 +11,7 @@ import ServicesDigitalMarketing from "@/components/OurServices/ServicesDigitalMa
 import ServicesMediaContentProduction from "@/components/OurServices/ServicesMediaContentProduction";
 import WithLoading from "@/components/WithLoading/WithLoading";
 import Contact from "@/components/Contact/Contact";
+import ServicesBranding from "@/components/OurServices/ServicesBranding";
 
 export default function HomePage() {
   const { t } = useTranslation();
@@ -195,7 +196,8 @@ export default function HomePage() {
             <ServicesDigitalMarketing />
 
             {/* Service 3 */}
-            <ServicesMediaContentProduction />
+            {/* <ServicesMediaContentProduction /> */}
+             <ServicesBranding />
           </div>
         </div>
 

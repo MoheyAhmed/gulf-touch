@@ -30,10 +30,10 @@ export default function Page() {
     <>
       {/* Hero Section */}
       <div
-        className="flex justify-center items-center min-h-[85vh] h-[500px] w-full bg-cover bg-fixed bg-center"
+        className="flex justify-center items-center min-h-[100vh]  w-full bg-cover bg-fixed bg-top"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://res.cloudinary.com/dab3mbbjb/image/upload/v1756023127/About_Header_BG_no1cu1.jpg')",
+            "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://res.cloudinary.com/dab3mbbjb/image/upload/v1767233095/ChatGPT_Image_Jan_1_2026_04_04_06_AM_ei0sap.png')",
         }}
       >
         <h1

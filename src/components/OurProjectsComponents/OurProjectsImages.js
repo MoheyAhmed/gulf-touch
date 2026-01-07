@@ -1,34 +1,38 @@
 export const brandingImages = [
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756092221/img1581_nvtpnj.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767229886/12_ncthh7.png",
     alt: "Modern web development project with UI/UX design interface",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756092220/img1220_saeqcm.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767229962/14_zpqxsw.png",
     alt: "Responsive website design optimized for mobile and desktop",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756092220/img1214_rejy3o.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767229981/6-1_v5c8bj.png",
     alt: "Custom web application development project for client",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756092220/img443_ewgxrn.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767230035/3-1_usr7uc.png",
     alt: "SEO-friendly website created by Gulf Touch for business growth",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756092220/img1180_adpkij.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767230049/1_1_xsusza.png",
     alt: "E-commerce website design and development showcase",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756092220/img1179_cbuacg.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767230252/freepik__a-premium-product-shot-of-a-modern-notebook-placed__12769_yijt0d.png",
     alt: "Online store website with custom e-commerce features",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756092220/img1582_traeqn.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767230368/freepik__a-hyperrealistic-product-shot-of-a-premium-noteboo__48007_raarcs.png",
     alt: "Web platform showcasing advanced e-commerce solutions",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756092220/img442_tktv9e.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767230377/freepik__a-hyperrealistic-product-shot-of-a-premium-cup-pla__61876_hkmo48.png",
+    alt: "Professional e-commerce website development project example",
+  },
+  {
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767230390/freepik__a-professional-vertical-mockup-of-a-magazine-cover__93681_jxwa1m.png",
     alt: "Professional e-commerce website development project example",
   },
 ];
@@ -86,61 +90,66 @@ export const digitalMarketingImages = [
 
 export const eventsImages = [
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197471/img3879_hy7dce.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757623/Internet_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A0%D9%A3%D9%A0%D9%A1_%D9%A1%D9%A4%D9%A1%D9%A3%D9%A4%D9%A5_38_oloo3q.jpg",
     alt: "Custom product packaging box design",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197472/img3860_cothxs.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757627/Internet_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A0%D9%A3%D9%A0%D9%A1_%D9%A1%D9%A4%D9%A1%D9%A3%D9%A4%D9%A5_46_ebiv61.jpg",
     alt: "Luxury packaging with modern branding",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197473/img3862_thmhlw.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757628/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A1%D9%A0%D9%A1%D9%A4_%D9%A2%D9%A0%D9%A3%D9%A8%D9%A3%D9%A5_Chrome_siswak.jpg",
     alt: "Creative packaging design for retail products",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197477/img3901_bxgzwr.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757635/TestCrew_Qualyn_Stand__Money2020_2025_1__22_mztrau.jpg",
     alt: "Eco-friendly packaging design sample",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197480/img3935_p2tcwq.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757636/TestCrew_Qualyn_Stand__Money2020_2025_1__19_zewhmn.jpg",
     alt: "Premium packaging box showcasing branding",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197478/img3877_ktswah.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757642/IMG-20251130-WA0107_tu9xhl.jpg",
     alt: "Custom cardboard packaging design",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197478/img3911_q0omj4.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757645/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A1%D9%A0%D9%A1%D9%A4_%D9%A2%D9%A0%D9%A4%D9%A4%D9%A3%D9%A6_Chrome_cz9nyh.jpg",
     alt: "Product packaging with unique style",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197483/img3819_krjmln.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757656/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A1%D9%A0%D9%A1%D9%A4_%D9%A2%D9%A0%D9%A4%D9%A2%D9%A1%D9%A6_Chrome_thm7bt.jpg",
     alt: "Retail packaging box design inspiration",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197484/img3909_e5eona.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757664/TestCrew_Qualyn_Stand__Money2020_2025_1__20_miazu8.jpg",
     alt: "Luxury printed packaging box design",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197483/img3899_ksu8jd.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757667/Internet_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A0%D9%A3%D9%A0%D9%A1_%D9%A1%D9%A4%D9%A1%D9%A3%D9%A4%D9%A5_23_weh08z.jpg",
     alt: "Custom designed packaging with logo",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197486/img3821_wrfvmf.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757675/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A0%D9%A8%D9%A1%D9%A3_%D9%A1%D9%A2%D9%A3%D9%A1%D9%A0%D9%A8_FMWhatsApp_hmnfyl.jpg",
     alt: "Product packaging showcasing branding identity",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197482/img3937_h68m8v.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757687/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A1%D9%A1%D9%A2%D9%A9_%D9%A1%D9%A4%D9%A3%D9%A6%D9%A2%D9%A5_Gallery_xoytvo.jpg",
     alt: "Creative retail box packaging design",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197488/img3840_i2ct2p.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757697/Screenshot_%D9%A2%D9%A0%D9%A2%D9%A3%D9%A0%D9%A8%D9%A1%D9%A3_%D9%A1%D9%A2%D9%A3%D9%A1%D9%A3%D9%A5_FMWhatsApp_aznzj9.jpg",
     alt: "Custom luxury packaging for premium products",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756197487/img3838_bb3mhi.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757702/%D8%B5%D9%88%D8%B1_%D9%85%D8%A7%D9%83%D9%8A%D8%AA-%D8%A7%D9%84booth-47_aa08la.png",
     alt: "Minimalist packaging box design",
   },
+  {
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767757702/%D8%B5%D9%88%D8%B1_%D9%85%D8%A7%D9%83%D9%8A%D8%AA-%D8%A7%D9%84booth-38_zcjaqd.png",
+    alt: "Minimalist packaging box design",
+  },
+ 
 ];
 
 export const mediaProductionImages = [
@@ -192,51 +201,63 @@ export const mediaProductionImages = [
 
 export const printingServicesImages = [
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195902/img4088_m9pbwr.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231297/16_g9tdqn.png",
     alt: "Corporate branding project showcasing creative design",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195901/img4007_gwezc0.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767232157/freepik__a-hyperrealistic-product-shot-of-a-premium-paper-b__48005_tim89h.png",
     alt: "Professional marketing campaign visual for Gulf Touch client",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195898/img5379_yoq6sq.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231327/11-1_dzd5wc.png",
     alt: "High-quality media content production photography",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195901/img4206_ofa1u0.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231330/18_swxoan.png",
     alt: "Creative graphic design project for advertising campaign",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195895/img4374_gsin4f.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231469/10_fyhpxg.png",
     alt: "Event and exhibition booth design by Gulf Touch",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195897/img4072_kmn2k1.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231480/9_evpn2p.png",
     alt: "Large format printing project for brand promotion",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195897/img5412_z0wkyt.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231784/freepik__a-hyperrealistic-product-shot-of-a-premium-cup-pla__13483_weo7gl.png",
     alt: "Custom printing design for marketing materials",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195891/img4420_nu5sjr.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231824/freepik__a-hyperrealistic-product-shot-of-a-premium-letterh__61875_axqpb6.png",
     alt: "Event management project showcasing stage setup",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195887/img5328_q3cll4.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231878/freepik__a-hyperrealistic-product-shot-of-a-premium-busines__61874_xk7mv8.png",
     alt: "Professional photography for media content production",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195885/img4349_isvqjg.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231887/freepik__a-hyperrealistic-product-shot-of-a-premium-busines__13481_bcnl7l.png",
     alt: "Brand identity and creative visual design project",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195885/img4400_xrgu70.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231895/freepik__a-professional-vertical-mockup-of-a-magazine-cover__93682_tkbfvb.png",
     alt: "Marketing project with digital and print media",
   },
   {
-    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1756195883/img4276_rjpczb.jpg",
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231953/freepik__a-professional-horizontal-mockup-of-a-magazine-cov__93676_yacr79.png",
+    alt: "Exhibition stand and events management showcase",
+  },
+  {
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767232089/freepik__a-professional-vertical-mockup-of-a-magazine-cover__93685_i9p63z.png",
+    alt: "Exhibition stand and events management showcase",
+  },
+  {
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767231319/8_ytqhbn.png",
+    alt: "Exhibition stand and events management showcase",
+  },
+  {
+    src: "https://res.cloudinary.com/dab3mbbjb/image/upload/v1767232208/freepik__make-another-mockup-for-this-card__67222_vl6nrv.png",
     alt: "Exhibition stand and events management showcase",
   },
 ];

@@ -8,6 +8,7 @@ import {
   faInstagram,
   faTiktok,
   faSnapchat,
+  faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
   const { t } = useTranslation();
@@ -21,8 +22,12 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-white">
-        <div className="fixed bottom-4 start-4">
-          <Link
+        <div className="fixed top-[40%] start-2 bg-white flex  z-[99999999999]">
+
+          <div >
+
+          <div>
+            <Link
             href="https://api.whatsapp.com/send/?phone=966508025823&text=مرحباً+هل+يمكنني+الحصول+على+المساعدة؟"
             target="_blank"
             rel="noopener noreferrer"
@@ -30,9 +35,69 @@ export default function Footer() {
           >
             <FontAwesomeIcon
               icon={faWhatsapp}
-              className="text-2xl mb-4 p-2 border rounded-[10px] cursor-pointer bg-green-600 text-white transition duration-300"
+              className="text-2xl  p-2 border cursor-pointer bg-green-600 text-white transition duration-300"
             />
           </Link>
+          </div>
+
+
+          <div>
+            <Link
+            href="https://www.facebook.com/share/17kgeHjXqj/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat with us on WhatsApp"
+          >
+            <FontAwesomeIcon
+              icon={faFacebook}
+              className="text-2xl  p-2 border cursor-pointer bg-blue-600 text-white transition duration-300"
+            />
+          </Link>
+          </div>
+
+          <div>
+            <Link
+              href="https://www.snapchat.com/add/gulftouch97?share_id=mOPzE-nP58k&locale=en-US"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our Facebook page"
+            >
+              <FontAwesomeIcon
+                icon={faSnapchat}
+                className="text-gray-600 text-2xl  p-2 border cursor-pointer bg-yellow-300 text-white transition duration-300"
+              />
+            </Link>
+          </div>
+
+          <div>
+            <Link
+              href="https://www.tiktok.com/@gulftouch_solutions?_r=1&_t=ZS-92lZ9PVnKVd"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our LinkedIn profile"
+            >
+              <FontAwesomeIcon
+                icon={faTiktok}
+                className="text-gray-600 text-2xl  p-2 border cursor-pointer bg-black text-white transition duration-300"
+              />
+            </Link>
+          </div>
+
+          <div >
+            <Link
+              href="https://www.instagram.com/gulftouch_solutions?igsh=Z29hZ3Z6d3JjNTRk"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit our Instagram profile"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
+                className="text-gray-600 text-2xl  p-2 border cursor-pointer bg-red-700 text-white transition duration-300"
+              />
+            </Link>
+          </div>
+        </div>
+
         </div>
 
         <div className="container mx-auto px-5 text-center md:max-w-[50%] py-12">

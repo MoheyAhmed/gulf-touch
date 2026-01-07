@@ -25,14 +25,15 @@ export default function Navbar() {
         className="fixed top-0 left-0 w-full bg-white shadow-md z-50"
       >
         <div className="container mx-auto">
-          <div className="max-w-7xl mx-auto px-4 flex justify-between items-center py-7">
+          <div className="max-w-7xl mx-auto px-4 flex justify-between items-center ">
             <Link aria-label="Gulf Touch Home" href={"/"}>
-              <div className="text-2xl font-bold cursor-pointer hover:text-blue-500 transition">
+              <div className="text-2xl font-bold cursor-pointer hover:text-blue-500 transition ">
                 <Image
                   alt="Gulf Touch Logo"
-                  width={150}
-                  height={50}
-                  src={'/logo Gulf Touch.svg'}
+                  width={100}
+                  height={100}
+                  // className = "h-[80px]"
+                  src={'/Logo Gulf Touch.png'}
                 />
               </div>
             </Link>
