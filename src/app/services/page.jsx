@@ -25,8 +25,8 @@ export default function page() {
       </div>
 
       <section
-        className="py-12 bg-fixed bg-cover bg-center bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://res.cloudinary.com/dab3mbbjb/image/upload/v1756023115/About_Us_services_wegrlk.jpg')]"
-        // style={{
+        // className="py-12 bg-fixed bg-cover bg-center bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://res.cloudinary.com/dab3mbbjb/image/upload/v1756023115/About_Us_services_wegrlk.jpg')]"
+                // style={{
         //   backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${Home_OurServicesBG.src})`,
         // }}
         aria-labelledby="our-services-title"
@@ -39,20 +39,20 @@ export default function page() {
               </h4>
               <h2
                 id="our-services-title"
-                className="text-3xl md:text-3xl font-bold leading-snug mb-6"
+                className="text-3xl md:text-3xl font-bold leading-snug mb-6 text-gray-600"
               >
                 {t("Services_Title")}
               </h2>
             </div>
             <div>
-              <p className="text-2xl text-gray-200 mb-8">
+              <p className="text-2xl text-gray-600 mb-8">
                 {t("Services_Description")}
               </p>
             </div>
           </div>
 
           {/* Services Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 text-gray-600">
             {/* Service 1 */}
             <ServicesWebDesign />
 

@@ -47,115 +47,113 @@ export const techs = [
 // 🎨 Branding
 export const branding = [
   {
-    src: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    src: "https://cdn-icons-png.flaticon.com/512/942/942748.png",
     alt: "Brand Strategy",
     nameEn: "Brand Strategy",
     nameAr: "استراتيجيات العلامة التجارية",
   },
   {
-    src: "https://cdn-icons-png.flaticon.com/512/1828/1828884.png",
+    src: "https://cdn-icons-png.flaticon.com/512/2920/2920277.png",
     alt: "Visual Identity Design",
     nameEn: "Visual Identity",
     nameAr: "تصميم الهوية البصرية",
   },
   {
-    src: "https://cdn-icons-png.flaticon.com/512/2721/2721270.png",
+    src: "https://cdn-icons-png.flaticon.com/512/3135/3135716.png",
     alt: "Brand Guidelines",
     nameEn: "Brand Guidelines",
     nameAr: "إعداد كتيب الهوية",
   },
   {
-    src: "https://cdn-icons-png.flaticon.com/512/3082/3082031.png",
+    src: "https://cdn-icons-png.flaticon.com/512/679/679720.png",
     alt: "Packaging Design",
     nameEn: "Packaging Design",
     nameAr: "تصميم التغليفات",
   },
-
   {
-    src: "https://cdn-icons-png.flaticon.com/512/888/888064.png",
+    src: "https://cdn-icons-png.flaticon.com/512/888/888034.png",
     alt: "Logo Design",
     nameEn: "Logo Design",
     nameAr: "تصميم الشعار",
   },
-
   {
-    src: "https://cdn-icons-png.flaticon.com/512/4149/4149670.png",
+    src: "https://cdn-icons-png.flaticon.com/512/942/942781.png",
     alt: "Corporate Identity",
     nameEn: "Corporate Identity",
     nameAr: "الهوية المؤسسية",
   },
 ];
 
+
 // 🖨️ Printing
 export const printing = [
   {
-    src: "https://cdn-icons-png.flaticon.com/512/1041/1041916.png",
+    src: "https://cdn-icons-png.flaticon.com/512/3135/3135706.png",
     alt: "Business Cards",
     nameEn: "Business Cards",
     nameAr: "بطاقات الأعمال",
   },
   {
-    src: "https://cdn-icons-png.flaticon.com/512/1029/1029183.png",
+    src: "https://cdn-icons-png.flaticon.com/512/3022/3022256.png",
     alt: "Brochures & Flyers",
     nameEn: "Brochures & Flyers",
     nameAr: "البروشورات والفلايرات",
   },
   {
-    src: "https://cdn-icons-png.flaticon.com/512/1828/1828880.png",
+    src: "https://cdn-icons-png.flaticon.com/512/1828/1828899.png",
     alt: "Corporate Stationery",
     nameEn: "Corporate Stationery",
     nameAr: "المطبوعات المكتبية",
   },
   {
-    src: "https://cdn-icons-png.flaticon.com/512/3500/3500833.png",
+    src: "https://cdn-icons-png.flaticon.com/512/3500/3500837.png",
     alt: "Packaging Prints",
     nameEn: "Packaging Prints",
     nameAr: "التغليفات المطبوعة",
   },
   {
-    src: "https://cdn-icons-png.flaticon.com/512/3135/3135773.png",
+    src: "https://cdn-icons-png.flaticon.com/512/1041/1041910.png",
     alt: "Large Format Prints",
-    nameEn: "Large Format Prints",
+    nameEn: "Large  Prints",
     nameAr: "المطبوعات كبيرة الحجم",
   },
 ];
 
+
 // 🎤 Events
 export const events = [
-    {
-      src: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
-      alt: "Event Concept",
-      nameEn: "Event Concept ",
-      nameAr: "ابتكار وتنفيذ فكرة الفعالية",
-    },
-    {
-      src: "https://cdn-icons-png.flaticon.com/512/3062/3062634.png",
-      alt: "Exhibition Booth Design",
-      nameEn: "Exhibition Design",
-      nameAr: "تصميم أجنحة المعارض والبوثات",
-    },
-    {
-      src: "https://cdn-icons-png.flaticon.com/512/747/747968.png",
-      alt: "Media Coverage",
-      nameEn: " Video Coverage",
-      nameAr: "التغطية الفوتوغرافية والفيديو",
-    },
-    {
-      src: "https://cdn-icons-png.flaticon.com/512/3132/3132693.png",
-      alt: "On-site Management",
-      nameEn: "On-site Management",
-      nameAr: "إدارة الموقع يوم الحدث",
-    },
-    {
-      src: "https://cdn-icons-png.flaticon.com/512/1046/1046857.png",
-      alt: "Event Production",
-      nameEn: "Event Production",
-      nameAr: "إنتاج وتجهيز الفعالية",
-    },
-    
-    
-    
-  ];
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/1087/1087840.png",
+    alt: "Event Concept",
+    nameEn: "Event Concept",
+    nameAr: "ابتكار وتنفيذ فكرة الفعالية",
+  },
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/2784/2784459.png",
+    alt: "Exhibition Booth Design",
+    nameEn: "Exhibition Design",
+    nameAr: "تصميم أجنحة المعارض والبوثات",
+  },
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/2920/2920320.png",
+    alt: "Media Coverage",
+    nameEn: "Video Coverage",
+    nameAr: "التغطية الفوتوغرافية والفيديو",
+  },
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/906/906343.png",
+    alt: "On-site Management",
+    nameEn: "On-site Management",
+    nameAr: "إدارة الموقع يوم الحدث",
+  },
+  {
+    src: "https://cdn-icons-png.flaticon.com/512/1995/1995574.png",
+    alt: "Event Production",
+    nameEn: "Event Production",
+    nameAr: "إنتاج وتجهيز الفعالية",
+  },
+];
+
 // 📢 Marketing
 export const marketing = [
   {

@@ -22,7 +22,7 @@ export default function Footer() {
   return (
     <>
       <footer className="bg-white">
-        <div className="fixed top-[40%] start-2 bg-white flex  z-[99999999999]">
+        <div className="fixed top-[40%] start-2  flex  z-[99999999999]">
 
           <div >
 
@@ -35,7 +35,7 @@ export default function Footer() {
           >
             <FontAwesomeIcon
               icon={faWhatsapp}
-              className="text-2xl  p-2 border cursor-pointer bg-green-600 text-white transition duration-300"
+              className="text-2xl  p-2  cursor-pointer bg-green-600 text-white transition duration-300"
             />
           </Link>
           </div>
@@ -50,7 +50,7 @@ export default function Footer() {
           >
             <FontAwesomeIcon
               icon={faFacebook}
-              className="text-2xl  p-2 border cursor-pointer bg-blue-600 text-white transition duration-300"
+              className="text-2xl  p-2  cursor-pointer bg-blue-600 text-white transition duration-300"
             />
           </Link>
           </div>
@@ -64,7 +64,7 @@ export default function Footer() {
             >
               <FontAwesomeIcon
                 icon={faSnapchat}
-                className="text-gray-600 text-2xl  p-2 border cursor-pointer bg-yellow-300 text-white transition duration-300"
+                className="text-2xl  p-2  cursor-pointer bg-yellow-300 text-white transition duration-300"
               />
             </Link>
           </div>
@@ -78,7 +78,7 @@ export default function Footer() {
             >
               <FontAwesomeIcon
                 icon={faTiktok}
-                className="text-gray-600 text-2xl  p-2 border cursor-pointer bg-black text-white transition duration-300"
+                className="text-2xl  p-2  cursor-pointer bg-black text-white transition duration-300"
               />
             </Link>
           </div>
@@ -92,7 +92,7 @@ export default function Footer() {
             >
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="text-gray-600 text-2xl  p-2 border cursor-pointer bg-red-700 text-white transition duration-300"
+                className="text-2xl  p-2  cursor-pointer bg-red-700 text-white transition duration-300"
               />
             </Link>
           </div>
@@ -131,6 +131,19 @@ export default function Footer() {
               <FontAwesomeIcon
                 icon={faWhatsapp}
                 className="text-gray-600 text-2xl mb-4 p-2 border rounded-full cursor-pointer hover:bg-green-600 hover:text-white transition duration-300"
+              />
+            </Link>
+
+
+            <Link
+              href="https://www.facebook.com/share/17kgeHjXqj/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat with us on WhatsApp"
+            >
+              <FontAwesomeIcon
+                icon={faFacebook}
+                className="text-gray-600 text-2xl mb-4 p-2 border rounded-full cursor-pointer hover:bg-blue-600 hover:text-white transition duration-300"
               />
             </Link>
 

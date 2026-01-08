@@ -38,9 +38,9 @@ export default function ServicesSlider({ items , slidesPerView = 4 }) {
               alt={item.alt}
               width={80}
               height={80}
-              className="object-contain block mx-auto"
+              className="object-contain block mx-auto service-icon "
             />
-            <p className="mt-3 text-base font-medium text-gray-200">
+            <p className="mt-3 text-base font-medium text-gray-600">
               {item.name
                 ? item.name
                 : isRTL
